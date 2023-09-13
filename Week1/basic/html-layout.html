@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Layout</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    header {
+      background-color: gray;
+      padding: 10px;
+      height: 150px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+    nav {
+      float: left;
+      width: 30%;
+      height: 300px;
+      background-color: azure;
+      padding: 20px;
+    }
+    nav ul {
+      padding: 20px;
+    }
+    article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+      height: 300px;
+      background-color:beige;
+    }
+    footer {
+      background-color:cadetblue;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+  </style>
+  <body>
+    <header>
+      <h3>Header</h3>
+    </header>
+    <section>
+      <nav>
+        <ul>
+          <li>nav-li1</li>
+          <li>nav-li2</li>
+          <li>nav-li3</li>
+        </ul>
+      </nav>
+      <article>
+        <p>article</p>
+      </article>
+    </section>
+    <footer>
+      <h3>Footer</h3>
+    </footer>
+  </body>
+</html>

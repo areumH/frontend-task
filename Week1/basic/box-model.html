@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>box-model</title>
+    <style>
+      body {
+        background-color: ghostwhite;
+      }
+      h3 {
+        width: 150px;
+        height: 70px;
+        background-color: lightblue;
+        text-align: center;
+      }
+      .padding {
+        padding: 30px;
+      }
+      .border {
+        border: 3px solid black;
+      }
+      .margin {
+        margin: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: flex">
+      <h3>original box</h3>
+      <h3 class="padding">padding box</h3>
+      <h3 class="border">border box</h3>
+      <h3 class="margin">margin box</h3>
+    </div>
+  </body>
+</html>

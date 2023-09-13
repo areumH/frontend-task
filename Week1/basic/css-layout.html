@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Layout</title>
+  </head>
+  <style>
+    .flex {
+      display: flex;
+      border: 1px solid black;
+      margin: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      border: 1px solid black;
+      margin: 20px;
+    }
+    .box {
+      border: 3px solid darkblue;
+      background-color: lightblue;
+      margin: 20px;
+      padding: 40px;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <div class="flex">
+      <div class="box">flex box</div>
+      <div class="box">flex box</div>
+      <div class="box">flex box</div>
+    </div>
+    <div class="grid">
+      <div class="box">grid box</div>
+      <div class="box">grid box</div>
+      <div class="box">grid box</div>
+      <div class="box">grid box</div>
+      <div class="box">grid box</div>
+    </div>
+    <div class="box" style="float: left">float box</div>
+    <div class="box" style="float: right">float box</div>
+  </body>
+</html>
