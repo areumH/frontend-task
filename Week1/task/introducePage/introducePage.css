@@ -82,6 +82,9 @@ td {
   margin: auto;
   text-align: left;
 }
+span {
+  font-weight: bold;
+}
 .intro_box {
   display: flex;
   margin-left: 30px;
