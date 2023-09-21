@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>minesweeper Page</title>
+    <link rel="stylesheet" href="./minesweeperPage.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header_content">
+          <select>
+            <option value="easy">초급</option>
+            <option value="normal">중급</option>
+            <option value="hard">상급</option>
+          </select>
+          <div class="item_center">
+            <div class="item">🚩35 ⏲️0</div>
+          </div>
+          <div class="item">🔊</div>
+        </div>
+      </div>
+      <div class="main">
+        <table id="minesweeper"></table>
+      </div>
+
+      <script>
+        const table = document.getElementById("minesweeper");
+
+        for (let i = 0; i < 15; i++) {
+          const rows = document.createElement("tr");
+
+          for (let j = 0; j < 10; j++) {
+            const cols = document.createElement("td");
+            rows.appendChild(cols);
+          }
+          table.appendChild(rows);
+        }
+      </script>
+    </div>
+  </body>
+</html>
