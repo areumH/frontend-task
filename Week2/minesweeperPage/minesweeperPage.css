@@ -15,12 +15,12 @@ body {
 .header {
   height: 10%;
   display: flex;
-  margin: auto;
-  align-items: center;
 }
 .header_content {
   display: flex;
   justify-content: space-between;
+  margin: auto;
+  
   width: 360px;
   height: 30px;
 }
