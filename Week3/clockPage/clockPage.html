@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./clockPage.css" />
+    <title>clock Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main_container">
+        <div class="battery_container">
+          %🔋
+          <div id="battery">100</div>
+        </div>
+        <div class="clock_container">
+          <div class="clock_text">CLOCK</div>
+          <h3></h3>
+        </div>
+        <div class="alarm_container">
+          <div class="alarm_text">
+            <div>ALARM</div>
+            <div>
+              <button id="alarmBtn">추가</button>
+              <button id="deleteBtn">삭제</button>
+            </div>
+          </div>
+          <div class="alarm">
+            <select id="selectTime">
+              <option value="오전">오전</option>
+              <option value="오후">오후</option>
+            </select>
+            <select id="selectHour"></select>
+            <div>시</div>
+            <select id="selectMin"></select>
+            <div>분</div>
+            <select id="selectSec"></select>
+            <div>초</div>
+          </div>
+          <div class="alarm_box"></div>
+        </div>
+    </div>
+
+    <script src="clockPage.js"></script>
+  </body>
+</html>

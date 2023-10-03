@@ -1,0 +1,116 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 350px;
+  height: 600px;
+
+  border-radius: 20px;
+  background-color: black;
+}
+.main_container {
+  display: flex;
+  flex-direction: column;
+
+  width: 300px;
+  height: 520px;
+
+  border-radius: 5px;
+  background-color: white;
+}
+.battery_container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 8px;
+  margin-right: 10px;
+
+  font-size: 15px;
+}
+.clock_container {
+  display: flex;
+  flex-direction: column;
+
+  width: 270px;
+  height: 120px;
+  margin: 15px auto 0 auto;
+
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+.clock_text{
+  display: flex;
+  margin: 5px 10px;
+
+  font-size: 13px;
+  font-weight: bold;
+}
+.clock_black {
+  background-color: black;
+}
+h3 {
+  margin: 22px auto 0 auto;
+}
+.alarm_container {
+  display: flex;
+  flex-direction: column;
+
+  width: 270px;
+  height: 320px;
+  margin: 10px auto;
+
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+.alarm_text {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 10px;
+
+  font-size: 13px;
+  font-weight: bold;
+}
+button {
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  border-radius: 7px;
+  background-color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.alarm {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+  font-size: 13px;
+}
+.alarm select {
+  width: 47px;
+  height: 20px;
+  margin-left: 5px;
+  text-align: center;
+  
+  border: none;
+  border-radius: 5px;
+}
+.alarm_box {
+  margin-top: 35px;
+}
+.alarm_item {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+}
