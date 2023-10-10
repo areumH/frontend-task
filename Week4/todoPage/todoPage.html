@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./todoPage.css" />
+    <title>Todo Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left_side">
+        <h2></h2>
+        <div class="plan_container">
+          <div class="plan">
+            <select id="year">
+              <option value="2023">2023</option>
+            </select>
+            <div>년</div>
+            <select id="month"></select>
+            <div>월</div>
+            <select id="date"></select>
+            <div>일</div>
+          </div>
+          <div class="planInput_container">
+            <input type="text" id="planInput" />
+            <button id="addPlan" class="addBtn">추가</button>
+          </div>
+          <div class="planBox"></div>
+        </div>
+      </div>
+      <div class="right_side">
+        <div class="todo_text">Todo-List</div>
+        <div class="todoInput_container">
+          <input type="text" id="todoInput" />
+          <button id="addTodo" class="addBtn">추가</button>
+        </div>
+        <div class="todoBox"></div>
+      </div>
+    </div>
+
+    <script src="todoPage.js"></script>
+  </body>
+</html>
