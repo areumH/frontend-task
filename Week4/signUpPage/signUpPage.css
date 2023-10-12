@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: rgba(173, 216, 230, 0.6);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 370px;
+  height: 490px;
+
+  border-radius: 25px;
+  background-color: white;
+}
+.signUp_text {
+  margin-top: 60px;
+  margin-bottom: 40px;
+
+  font-size: 40px;
+  font-weight: bold;
+  color: midnightblue;
+}
+.idBox {
+  display: flex;
+  align-items: center;
+}
+.id_correct,
+.id_wrong {
+  width: 204px;
+  height: 35px;
+  padding-left: 5px;
+
+  border-radius: 7px;
+  border: none;
+  outline: 1px solid darkgrey;
+}
+.id_correct:focus {
+  outline: 1px solid indigo;
+}
+.id_wrong:focus {
+  outline: 1px solid red;
+}
+.idConfirmBtn {
+  width: 68px;
+  height: 38px;
+  margin-left: 3px;
+
+  border-radius: 7px;
+  border: none;
+  background-color: midnightblue;
+  font-size: 13px;
+  color: white;
+  cursor: pointer;
+}
+.idConfirm {
+  display: flex;
+  width: 280px;
+  height: 30px;
+  margin-top: 5px;
+
+  font-size: 13px;
+  color: dimgrey;
+}
+.pw_correct,
+.pw_wrong {
+  width: 275px;
+  height: 35px;
+  margin-top: 15px;
+  padding-left: 5px;
+
+  border-radius: 7px;
+  border: none;
+  outline: 1px solid darkgrey;
+}
+.pw_correct:focus {
+  outline: 1px solid indigo;
+}
+.pw_wrong:focus {
+  outline: 1px solid red;
+}
+.signUpBtn {
+  width: 287px;
+  height: 43px;
+  margin-top: 40px;
+
+  border-radius: 7px;
+  border: none;
+  background-color: midnightblue;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: slateblue;
+  transition: ease 0.3s;
+}
